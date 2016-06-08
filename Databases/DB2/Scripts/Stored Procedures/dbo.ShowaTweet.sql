@@ -9,5 +9,5 @@ CREATE PROCEDURE [dbo].[ShowaTweet]
     @parameter_name AS INT
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT * FROM dbo.Tweets WHERE TweetID = 43
+    SELECT * FROM dbo.Tweets WHERE TweetID = 413
 GO
