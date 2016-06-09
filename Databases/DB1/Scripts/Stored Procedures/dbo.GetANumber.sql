@@ -9,7 +9,5 @@ CREATE PROCEDURE [dbo].[GetANumber]
     @parameter_name AS INT
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-
-    SELECT 12534
-
+    SELECT 21
 GO
