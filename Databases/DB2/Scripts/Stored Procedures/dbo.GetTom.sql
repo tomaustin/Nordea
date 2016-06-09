@@ -9,5 +9,5 @@ CREATE PROCEDURE [dbo].[GetTom]
     @parameter_name AS INT
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT 'Tom'
+    SELECT 'Hi Tom'
 GO
