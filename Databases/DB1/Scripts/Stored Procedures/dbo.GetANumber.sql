@@ -9,5 +9,9 @@ CREATE PROCEDURE [dbo].[GetANumber]
     @parameter_name AS INT
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
+<<<<<<< HEAD
     SELECT 12536
+=======
+    SELECT 12534
+>>>>>>> master
 GO
